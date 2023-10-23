@@ -521,6 +521,9 @@ video {
 .gap-1 {
   gap: 0.25rem;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-32 {
   gap: 8rem;
 }
@@ -529,6 +532,9 @@ video {
 }
 .gap-8 {
   gap: 2rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -573,11 +579,11 @@ video {
 .underline {
   text-decoration-line: underline;
 }
-.underline-offset-4 {
-  text-underline-offset: 4px;
-}
 .underline-offset-2 {
   text-underline-offset: 2px;
+}
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
