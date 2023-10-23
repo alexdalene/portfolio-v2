@@ -536,6 +536,46 @@ video {
 .gap-3 {
   gap: 0.75rem;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-b-full {
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+.rounded-t-\[7rem\] {
+  border-top-left-radius: 7rem;
+  border-top-right-radius: 7rem;
+}
+.rounded-l-\[7rem\] {
+  border-top-left-radius: 7rem;
+  border-bottom-left-radius: 7rem;
+}
+.rounded-r-\[7rem\] {
+  border-top-right-radius: 7rem;
+  border-bottom-right-radius: 7rem;
+}
+.rounded-bl-full {
+  border-bottom-left-radius: 9999px;
+}
+.rounded-bl-lg {
+  border-bottom-left-radius: 0.5rem;
+}
+.rounded-bl-3xl {
+  border-bottom-left-radius: 1.5rem;
+}
+.rounded-bl-\[7rem\] {
+  border-bottom-left-radius: 7rem;
+}
+.rounded-tl-\[7rem\] {
+  border-top-left-radius: 7rem;
+}
+.rounded-tr-\[7rem\] {
+  border-top-right-radius: 7rem;
+}
+.rounded-br-\[7rem\] {
+  border-bottom-right-radius: 7rem;
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -584,6 +624,38 @@ video {
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.hover\:translate-x-5:hover {
+  --tw-translate-x: 1.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:translate-y-1:hover {
+  --tw-translate-y: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:rounded-none:hover {
+  border-radius: 0px;
 }
 .hover\:underline:hover {
   text-decoration-line: underline;
