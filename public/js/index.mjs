@@ -1,3 +1,7 @@
+import Navbar from "./components/navbar.mjs";
+
+Navbar();
+
 const openBtn = document.querySelector("#open");
 const closeBtn = document.querySelector("#close");
 const container = document.querySelector("#menu-container");
