@@ -12,7 +12,10 @@ const Navbar = () => {
     'flex',
     'justify-between',
     'sticky',
-    'top-0'
+    'top-0',
+    'py-4',
+    'sm:py-4',
+    'z-10'
   );
 
   nav.innerHTML += `
