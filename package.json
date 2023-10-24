@@ -1,8 +1,8 @@
 {
   "name": "portfolio-v2",
   "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
+  "description": "A portfolio for Alex Dalene.",
+  "main": "./public/index.html",
   "scripts": {
     "build": "postcss ./src/css/input.css -o ./public/css/output.css",
     "watch": "postcss ./src/css/input.css -o ./public/css/output.css --watch"

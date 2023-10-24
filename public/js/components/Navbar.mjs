@@ -1,14 +1,18 @@
+/**
+ * Creates a dynamic navbar
+ * @function
+ */
 const Navbar = () => {
-  const nav = document.createElement("nav");
-  const main = document.querySelector("#main");
+  const nav = document.createElement('nav');
+  const main = document.querySelector('#main');
 
   nav.classList.add(
-    "px-4",
-    "sm:px-6",
-    "flex",
-    "justify-between",
-    "sticky",
-    "top-0"
+    'px-4',
+    'sm:px-6',
+    'flex',
+    'justify-between',
+    'sticky',
+    'top-0'
   );
 
   nav.innerHTML += `
