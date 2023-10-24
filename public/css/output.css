@@ -680,6 +680,15 @@ video {
     border-top-left-radius: 7rem;
   }
 
+  .sm\:border {
+    border-width: 1px;
+  }
+
+  .sm\:border-black {
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  }
+
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
