@@ -26,21 +26,27 @@
       class="min-h-[100svh] flex flex-col items-center justify-center"
     >
       <!-- Hero -->
-      <section class="flex flex-col gap-8 px-4 sm:px-6 sm:max-w-[540px]">
+      <section
+        class="flex flex-col gap-8 px-4 sm:px-6 sm:max-w-[540px] leading-6"
+      >
         <header class="flex flex-col gap-4">
           <img
             src="./src/images/hero.webp"
             alt="Michael Angelo's painting on top of the Palace of Versailles"
             class="object-cover max-h-60"
           />
-          <h1 class="font-bold">FRONTEND-UTVIKLER</h1>
+          <h1
+            class="font-bold before:content-['<h1>'] before:text-stone-400 before:font-normal"
+          >
+            FRONTEND-UTVIKLER
+          </h1>
         </header>
-        <p>
+        <p class="before:content-['<p>'] before:text-stone-400">
           Jeg heter Alex Dalene. Jeg har stor lidenskap for design og utvikling.
           Det er alltid noe nytt å lære seg - og jeg vil stortrives i et miljø
           som kan tilby det.
         </p>
-        <p>
+        <p class="before:content-['<p>'] before:text-stone-400">
           Jeg er glad i minimalisme, brutalisme og oversiktlig design. Dette
           reflekteres i prosjektene mine, som du kan se
           <a href="./projects/" class="underline underline-offset-2">her</a>.
