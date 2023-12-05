@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Le Monde Tapas",
+        "image": "../src/images/showcase-lemonde.png",
+        "link": "https://lemondetapas.no"
+    },
+    {
+        "id": 2,
+        "title": "Guttas Campus",
+        "image": "../src/images/showcase-guttas.png",
+        "link": "https://guttascampus.no"
+    },
+    {
+        "id": 3,
+        "title": "Mori",
+        "image": "../src/images/showcase-mori.png",
+        "link": "https://usemori.netlify.app"
+    },
+    {
+        "id": 4,
+        "title": "Wild at Risk",
+        "image": "../src/images/showcase-wildatrisk.png",
+        "link": "https://wildatrisk.netlify.app"
+    }
+]
