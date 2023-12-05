@@ -1,4 +1,3 @@
-// Setup
 import { navbar } from './components/Navbar.mjs';
 import { getProjects } from './api/get.mjs';
 import { makeProjects } from './components/projects/projects.mjs';

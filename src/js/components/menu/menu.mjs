@@ -35,7 +35,7 @@ export const menu = () => {
   const closeButton = document.createElement('button');
   closeButton.classList.add('font-medium');
   closeButton.id = 'close';
-  closeButton.textContent = 'CLOSE';
+  closeButton.textContent = 'LUKK';
 
   closeButton.addEventListener('click', () => {
     body.removeChild(menuContainer);

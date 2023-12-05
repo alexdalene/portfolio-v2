@@ -10,7 +10,12 @@ export const makeProjects = (projects) => {
   const img = document.createElement('img');
   img.src = image;
   img.alt = 'Image of the project';
-  img.classList.add('object-cover', 'transition-transform', 'hover:scale-110');
+  img.classList.add(
+    'object-cover',
+    'transition-transform',
+    'hover:scale-110',
+    'duration-300'
+  );
 
   anchor.appendChild(img);
   container.appendChild(anchor);

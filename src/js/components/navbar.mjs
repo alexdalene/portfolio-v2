@@ -27,7 +27,7 @@ export const navbar = () => {
   const openButton = document.createElement('button');
   openButton.classList.add('font-medium');
   openButton.id = 'open';
-  openButton.textContent = 'MENU';
+  openButton.textContent = 'MENY';
 
   openButton.addEventListener('click', () => {
     menu();

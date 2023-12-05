@@ -16,37 +16,88 @@
     <!-- Link to Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/oig1ozn.css" />
 
-    <!-- Link to JS module -->
+    <!-- Script for JS module -->
     <script type="module" src="./src/js/index.mjs"></script>
   </head>
-  <body class="font-etica text-sm">
+  <body class="font-etica text-sm subpixel-antialiased">
     <!-- Main -->
-    <main
-      id="main"
-      class="min-h-[100svh] flex flex-col items-center justify-center"
-    >
+    <main id="main" class="min-h-[100svh] flex items-center justify-center">
       <!-- Hero -->
       <section
-        class="flex flex-col gap-8 px-4 sm:px-6 sm:max-w-[540px] leading-6"
+        class="flex flex-col gap-8 p-4 sm:p-6 sm:max-w-[540px] leading-6 rounded-3xl"
       >
-        <header class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 relative overflow-hidden">
           <img
             src="./src/images/hero.webp"
             alt="Michael Angelo's painting on top of the Palace of Versailles"
-            class="object-cover max-h-60"
+            class="object-cover max-h-60 rounded-3xl"
           />
-          <h1
-            class="font-bold before:content-['<h1>'] before:text-stone-400 before:font-normal"
+          <div class="absolute bg-white w-40 h-20 rounded-bl-3xl right-0 top-0">
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 13 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute right-0 -bottom-10 w-10 h-10 fill-white rotate-90"
+            >
+              <path
+                d="M0.000212396 0H13.0002C2.87774 0 0.163678 7.61338 0.000212396 12.1365V13C-0.0102433 12.7282 -0.0107289 12.4392 0.000212396 12.1365V0Z"
+                fill="#currentColor"
+              />
+            </svg>
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 13 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute -left-10 top-0 w-10 h-10 rotate-90 fill-white"
+            >
+              <path
+                d="M0.000212396 0H13.0002C2.87774 0 0.163678 7.61338 0.000212396 12.1365V13C-0.0102433 12.7282 -0.0107289 12.4392 0.000212396 12.1365V0Z"
+                fill="#currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="absolute bg-white w-32 h-20 rounded-tr-3xl left-0 bottom-0"
           >
-            FRONTEND-UTVIKLER
-          </h1>
-        </header>
-        <p class="before:content-['<p>'] before:text-stone-400">
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 13 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute left-0 -top-10 w-10 h-10 fill-white -rotate-90"
+            >
+              <path
+                d="M0.000212396 0H13.0002C2.87774 0 0.163678 7.61338 0.000212396 12.1365V13C-0.0102433 12.7282 -0.0107289 12.4392 0.000212396 12.1365V0Z"
+                fill="#currentColor"
+              />
+            </svg>
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 13 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute -right-10 bottom-0 w-10 h-10 -rotate-90 fill-white"
+            >
+              <path
+                d="M0.000212396 0H13.0002C2.87774 0 0.163678 7.61338 0.000212396 12.1365V13C-0.0102433 12.7282 -0.0107289 12.4392 0.000212396 12.1365V0Z"
+                fill="#currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+        <h1 class="font-bold">FRONTEND_UTVIKLER</h1>
+        <p class="">
           Jeg heter Alex Dalene. Jeg har stor lidenskap for design og utvikling.
           Det er alltid noe nytt å lære seg - og jeg vil stortrives i et miljø
           som kan tilby det.
         </p>
-        <p class="before:content-['<p>'] before:text-stone-400">
+        <p class="">
           Jeg er glad i minimalisme, brutalisme og oversiktlig design. Dette
           reflekteres i prosjektene mine, som du kan se
           <a href="./projects/" class="underline underline-offset-2">her</a>.
