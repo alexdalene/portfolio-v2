@@ -22,5 +22,17 @@
         "title": "Wild at Risk",
         "image": "../src/images/showcase-wildatrisk.png",
         "link": "https://wildatrisk.netlify.app"
+    },
+    {
+        "id": 5,
+        "title": "Bid-B",
+        "image": "../src/images/showcase-bidb.png",
+        "link": "https://ad-exam2.netlify.app/"
+    },
+    {
+        "id": 6,
+        "title": "Omsorgskollektivet",
+        "image": "../src/images/showcase-ok.png",
+        "link": "https://www.omsorgskollektivet.no/"
     }
 ]
